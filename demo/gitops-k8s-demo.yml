@@ -31,4 +31,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Hi, I was updated from GIT!
+          value: Hi, I was deployed by Argo CD from GIT!
