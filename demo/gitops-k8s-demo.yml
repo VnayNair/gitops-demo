@@ -15,7 +15,7 @@ kind: Deployment
 metadata:
   name: hello-kubernetes-custom
 spec:
-  replicas: 6
+  replicas: 4
   selector:
     matchLabels:
       app: hello-kubernetes-custom
@@ -31,4 +31,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Hi, I was deployed using ArgoCD!
+          value: Hi, I was updated using ArgoCD!
